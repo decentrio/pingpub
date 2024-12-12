@@ -54,6 +54,7 @@ export const useStakingStore = defineStore('stakingStore', {
     async fetchParams() {
       const response = await this.blockchain.rpc?.getStakingParams();
       if (response?.params) this.params = response.params;
+      this.params.bond_denom = 'ario'
       return this.params;
     },
     async fetchPool() {

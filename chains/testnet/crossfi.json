@@ -1,11 +1,32 @@
 {
-    "chain_name": "crossfi-testnet-1",
-    "api": ["https://crossfi-testnet-api.forpeaky.xyz"],
-    "rpc": ["https://crossfi-testnet-rpc.forpeaky.xyz"],
-    "coingecko": "",
+    "chain_name": "realio",
+    "alias": "realio",
+    "api": [
+        "https://realio-testnet.api.decentrio.ventures"
+    ],
+    "rpc": [
+        "https://realio-testnet.rpc.decentrio.ventures"
+    ],
     "snapshot_provider": "",
-    "sdk_version": "0.47.1",
-    "coin_type": "118",
-    "min_tx_fee": "500",
-    "addr_prefix": "crossfi"
-    }
+    "addr_prefix": "realio",
+    "coin_type": "60",
+    "min_tx_fee": "5000",
+    "assets": [
+        {
+            "base": "ario",
+            "symbol": "RIO",
+            "exponent": "18",
+            "coingecko_id": "realio-network",
+            "logo": "/logos/realio.png"
+        },
+        {
+            "base": "arst",
+            "symbol": "RST",
+            "exponent": "18",
+            "coingecko_id": "",
+            "logo": "/logos/realio.jpg"
+        }
+    ],
+    "logo": "/logos/realio.png",
+    "sdk_version": "v0.50.10"
+}
