@@ -2,10 +2,10 @@
     "chain_name": "realio",
     "alias": "realio",
     "api": [
-        "https://realio-testnet.api.decentrio.ventures"
+        "https://realio.api.decentrio.ventures"
     ],
     "rpc": [
-        "https://realio-testnet.rpc.decentrio.ventures"
+        "https://realio.rpc.decentrio.ventures"
     ],
     "snapshot_provider": "",
     "addr_prefix": "realio",
